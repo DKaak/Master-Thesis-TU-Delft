@@ -63,7 +63,7 @@ def main(TestBatch, DocumentName):
     SumLabel = SumLabel + len(Wordlist)
     Counter = Counter+1
     
-    Prob = pd.DataFrame(columns = ['Fraud','Legit'])
+    Prob = pd.DataFrame(columns = [str(catR),str(catNR)])
     for j in [str(catR), str(catNR)]:
         Prob[j] = Counter[j]/SumLabel[j][0]
     
