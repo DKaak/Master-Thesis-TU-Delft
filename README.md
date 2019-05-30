@@ -14,6 +14,8 @@ MLGM_Training is used to train the MLGM model (and MLGM1000W the corresponding t
 
 BEGM_Training is used to train the BEGM model (and BEGM1000W the corresponding training of the model based on 1000 words as parameters), BEGM is used to test the model based on the dataset that is used as input.
 
-MLDM is used to train and test the corresponding model based on the dataset that is used as input.
+MLDM is used to train and  test the corresponding model based on the dataset that is used as input.
 
-BEDM is used to test the corresponding model based on the dataset that is used as input.
+BEDM is used to train and test the corresponding model based on the dataset that is used as input.
+
+AdaBoost is used to train and test the corresponding model based on the dataset that is used as input.
